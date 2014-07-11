@@ -24,21 +24,21 @@ or download the css on github and include in your project.
 .resize-hor  { resize: horizontal; }
 .resize-ver  { resize: vertical; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .resize-none-ns { resize: none; }
   .resize-both-ns { resize: both; }
   .resize-hor-ns  { resize: horizontal; }
   .resize-ver-ns  { resize: vertical; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .resize-none-m { resize: none; }
   .resize-both-m { resize: both; }
   .resize-hor-m  { resize: horizontal; }
   .resize-ver-m  { resize: vertical; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .resize-none-l { resize: none; }
   .resize-both-l { resize: both; }
   .resize-hor-l  { resize: horizontal; }
