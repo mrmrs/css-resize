@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-resize)
 ## File Size
 
 750B resize.css
-594B resize.min.css
+594B resize.min.css 
+179B minified and gzipped
 
 ## The Code
 ```
