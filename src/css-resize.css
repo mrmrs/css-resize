@@ -8,10 +8,10 @@
 .resize-ver  { resize: vertical; }
 
 @media screen and (min-width: 48em) {
-  .resize-none-ns { resize: none; }
-  .resize-both-ns { resize: both; }
-  .resize-hor-ns  { resize: horizontal; }
-  .resize-ver-ns  { resize: vertical; }
+  .resize-none-s { resize: none; }
+  .resize-both-s { resize: both; }
+  .resize-hor-s  { resize: horizontal; }
+  .resize-ver-s  { resize: vertical; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
