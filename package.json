@@ -1,38 +1,44 @@
 {
   "name": "css-resize",
-  "style": "resize.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-resize",
-  "description": "Css module of single purpose classes for resize",
+  "version": "2.0.0",
+  "description": "Functional CSS for resize",
+  "style": "dist/resize.css",
+  "main": "dist/resize.css",
+  "exports": {
+    ".": "./dist/resize.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "resize"
+    "resize",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-resize": {
+  "homepage": "https://github.com/mrmrs/css-resize",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-resize.git"
+    "url": "https://github.com/mrmrs/css-resize.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-resize/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-resize/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
