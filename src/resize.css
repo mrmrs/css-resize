@@ -7,21 +7,21 @@
 .resize-hor  { resize: horizontal; }
 .resize-ver  { resize: vertical; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .resize-none-s { resize: none; }
   .resize-both-s { resize: both; }
   .resize-hor-s  { resize: horizontal; }
   .resize-ver-s  { resize: vertical; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .resize-none-m { resize: none; }
   .resize-both-m { resize: both; }
   .resize-hor-m  { resize: horizontal; }
   .resize-ver-m  { resize: vertical; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .resize-none-l { resize: none; }
   .resize-both-l { resize: both; }
   .resize-hor-l  { resize: horizontal; }
